@@ -1,0 +1,56 @@
+body {
+  width: auto;
+}
+
+nav img {
+  max-width: auto;
+  width: 200px;
+  height: 50px;
+}
+#navbarNav {
+  color: white;
+}
+
+.jumbotron {
+  overflow: hidden;
+  background-image: url('../img/bg1.jpg');
+  background-size: cover;
+  height: 500px;
+  background-position: 0 0px;
+  margin: auto;
+  position: relative;
+  background-repeat: no-repeat;
+  margin-top: 75px;
+}
+.judul-halaman p {
+  color: white;
+  font-style: italic;
+}
+.judul-halaman {
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+}
+.layanan {
+  margin-top: 15px;
+  background-color: rgb(230, 229, 229);
+}
+
+h2:before,
+h2:after {
+  background-color: #4285f4;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+h2:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+h2:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
